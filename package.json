@@ -1,0 +1,25 @@
+{
+  "name": "sales-analytics-dashboard",
+  "version": "1.0.0",
+  "description": "Full-stack MERN Sales Analytics Dashboard with React, Express, and MongoDB",
+  "private": true,
+  "scripts": {
+    "dev": "cd client && pnpm dev",
+    "dev:client": "cd client && pnpm dev",
+    "dev:server": "cd server && pnpm dev",
+    "build": "cd client && pnpm build && cd ../server && pnpm build",
+    "start": "cd server && pnpm start"
+  },
+  "keywords": [
+    "sales",
+    "analytics",
+    "dashboard",
+    "react",
+    "express",
+    "mongodb",
+    "redux",
+    "tailwindcss"
+  ],
+  "author": "",
+  "license": "MIT"
+}
