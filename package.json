@@ -6,7 +6,7 @@
     "dev": "cd client && pnpm dev",
     "dev:client": "cd client && pnpm dev",
     "dev:server": "cd server && pnpm dev",
-    "build": "cd client && pnpm build && cd ../server && pnpm build",
+   "build": "pnpm install --recursive && cd client && pnpm build && cd ../server && pnpm build",
     "start": "cd server && pnpm start"
   },
   "keywords": [
