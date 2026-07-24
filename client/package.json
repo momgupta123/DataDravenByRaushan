@@ -4,9 +4,9 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "build": "cd client && pnpm build && cd ../server && pnpm build",
+  "dev": "cd client && pnpm dev",
+  "dev:client": "cd client && pnpm dev"
   },
   "dependencies": {
     "@faker-js/faker": "^8.3.1",
